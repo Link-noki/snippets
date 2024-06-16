@@ -1,0 +1,21 @@
+body{
+    @apply bg-transparent
+}
+.drag{
+    -webkit-app-region: drag;
+}
+.nodrag{
+    -webkit-app-region: no-drag;
+}
+.no-select{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.no-select *{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
